@@ -1,1 +1,90 @@
-https://codepen.io/brandongunn/pen/qBOBwBP?editors=1100
+https://codepen.io/brandongunn/pen/qBOBwBP
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    A= Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents.
+
+    2. What is HTML used for? 
+    A=is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks.
+
+    3. What is an attribute and where do we put it? 
+    A= additional characteristics or properties of the element such as width and height of an image. Attributes are always specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value" . Attribute values should always be enclosed in quotation marks.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    A= there should be only ONE h1 tag per page. This is because it makes more sense and this is what you should aim for. In cases though that you end up having multiple h1 tags in a page, this is not the end of the world.
+
+    5. Name two tags that have required attributes
+    A=href-	Specifies the URL (web address) for a link
+src-	Specifies the URL (web address) for an image
+
+    6. What do we put in the head of our HTML document? 
+    A= tag contains metadata (document title, character set, styles, links, scripts), specific information about the web page that is not displayed to the user. Metadata provides browsers and search engines with technical information about the web page.
+    7. What is an id? 
+    A- The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    8. What elements can I add an id to? 
+    A= The id attribute is a unique identifier which is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. ... It can not be used by <base>, <head>, <html>, <meta>, <param>, <script>, <style>, and <title> tag.
+    9. How many times can I use the same id on a page? 
+    A=CAN ONLY BE USED ONCE IN ANY DOCUMENT. There is greater importance, or specificity than a CLASS but for the most part we use it because of its uniqueness, not importance
+    10. What is a class? 
+    A= an attribute which specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.
+    11. What elements can I add a class to? 
+    A=works with headings, divs , sections, paragraph, and imgs
+    12. How many times can I use the same class on a page? 
+    A= there is no limit if done correctly
+    13. How do I get my link to open in a new tab?
+    A= href = "#"
+    14. What is the alt attribute in the image tag used for? 
+    A= it gives detail about the image 
+    15. How do I reference an id?
+    A=uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+    16. What is the difference between a section and a div
+    A= The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. ... For <div>, this should be used only when no other semantic element like <article> or <nav> is appropriate.
+    17. What is CSS used for? 
+    A=is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
+    18. How to we select an element? Example - every h2 on the page
+    A= classify the h2 with a specific ID to select the element
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A= a class specifies what section you are dealing with. An ID selects that specific class and gives it extra meaning.
+    20. How do we select classes in CSS?
+    A= giving a class a specific name to identify which class you are using. such as container, section etc.
+    21. How do we select a p element with a single class of “human””?
+    A= In  CSS it would be .human p {}
+    22. What is a parent child selector? When would this be useful? 
+     A= selects all elements that are a direct child of the specified element. A =This is used to match elements that are direct children of other elements, which is a little more precise than the traditional contextual selector.
+    23. How do you select all links within a div with the class of sidebar?
+    
+    24. What is a pseudo selector?
+    A= is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+    25. What do we use to change the spacing between lines?
+    A= change in CSS the line-height: 
+    26. What do we use to change the spacing between letters?
+    A= change in CSS the letter-spacing: px;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    A= text-transform: uppercase;
+       text-transform: lowercase;
+       text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+    A= border= 1px dot black
+    29. How do I select everything on the page? 
+    A= .{
+
+    }
+    30. How do I write a comment in CSS?
+     A= /* */
+    31. How do I find out what file I am in, when I am using the command line?
+     A= ls or look up the path
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+     A= ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+     A = rm because it is permanent
+    34. Why should I use version control? 
+     A= so you dont code the wrong one
+    35. How often should I commit to github?
+     A = everytime you make changes
+    36. What is the command we would use to push our repo up to github? 
+     A= push origin <branch name>
+    37. Walk me through Lambda's git flow. 
+     A= fork,clone, git checkout, add, commit, push
